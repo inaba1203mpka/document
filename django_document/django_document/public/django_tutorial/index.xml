@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Django_tutorials on Django Document</title>
+    <link>http://example.org/django_tutorial/</link>
+    <description>Recent content in Django_tutorials on Django Document</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 05 Apr 2019 23:15:33 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/django_tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Page2</title>
+      <link>http://example.org/django_tutorial/page2/</link>
+      <pubDate>Fri, 05 Apr 2019 23:15:33 +0900</pubDate>
+      
+      <guid>http://example.org/django_tutorial/page2/</guid>
+      <description> H </description>
+    </item>
+    
+    <item>
+      <title>Projectを作る</title>
+      <link>http://example.org/django_tutorial/page1/</link>
+      <pubDate>Fri, 05 Apr 2019 23:05:32 +0900</pubDate>
+      
+      <guid>http://example.org/django_tutorial/page1/</guid>
+      <description> Hello Hugo! </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,3 +1,9 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "ja"
+title = "Django Document"
+
+theme = "hugo-tranquilpeak-theme"
+publicdir = "public"
+
+[Params]
+author = "Kouhei Inaba"
