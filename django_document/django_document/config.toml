@@ -1,8 +1,0 @@
-baseURL = "http://example.org/"
-languageCode = "ja"
-title = "Django Document"
-
-theme = "aether"
-
-[Params]
-author = "Kohei Inaba"
