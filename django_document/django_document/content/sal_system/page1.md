@@ -1,0 +1,88 @@
+---
+title: "はじめに"
+date: 2019-04-05T23:32:14+09:00
+draft: false
+---
+
+# はじめに
+ここでは公共施設利活用アプリのファイル構成について書いていく。  
+
+## 前提
+Python3インストール済み  
+Djangoインストール済み  
+pip3もしくはAnacondaのインストール済み  
+Gitインストール済み  
+
+また、上記についての操作がある程度できる状態。
+
+# プログラムのダウンロード
+
+プログラムはGitHubに置いてあるので下のコマンドでダウンロードする。
+```  
+git clone git@github.com:inaba1203mpka/sal_server_test.git
+```
+公共施設利活用アプリの作成を引き継ぐにあたって、README.mdにインポートすべきライブラリやそのバージョンについて書いてある。
+
+# ファイル構成
+
+ダウンロードしたファイルの構成は下のようになっている。
+```
+.
+├── README.md
+└── sal_server
+    ├── manage.py
+    ├── sal_server
+    │   ├── __init__.py
+    │   ├── settings.py
+    │   ├── urls.py
+    │   └── wsgi.py
+    └── system
+        ├── __init__.py
+        ├── admin.py
+        ├── apps.py
+        ├── forms.py
+        ├── migrations
+        │   ├── 0001_initial.py
+        │   └── __init__.py
+        ├── models.py
+        ├── static
+        │   ├── css
+        │   │   └── datepicker-widget.css
+        │   ├── js
+        │   │   ├── datepicker-widget.js
+        │   │   └── jquery.balloon.js
+        │   └── system
+        │       ├── image001b.png
+        │       ├── image002a.png
+        │       ├── image003b.png
+        │       ├── no_image.jpg
+        │       ├── reservation3.jpg
+        │       ├── reservation5.jpg
+        │       ├── sal-member.jpg
+        │       ├── tomiura.jpg
+        │       └── tomiura_ashiyu.JPG
+        ├── templates
+        │   └── system
+        │       ├── base.html
+        │       ├── facility_list.html
+        │       ├── login.html
+        │       ├── mail_templates
+        │       │   ├── message.txt
+        │       │   └── subject.txt
+        │       ├── reservation_confirm_delete.html
+        │       ├── reservation_create.html
+        │       ├── reservation_list.html
+        │       ├── top.html
+        │       ├── user_create.html
+        │       ├── user_create_complete.html
+        │       └── user_create_done.html
+        ├── tests.py
+        ├── urls.py
+        └── views.py
+```
+
+# MTVモデル
+
+ここでは公共施設利活用アプリの中の各ファイルについて、そのつながりを書いていく。
+
+# 参考ページ
