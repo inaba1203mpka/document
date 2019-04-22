@@ -3,7 +3,7 @@ title: "はじめに"
 date: 2019-04-05T23:32:14+09:00
 draft: false
 ---
-
+ 
 # はじめに
 ここでは公共施設利活用アプリのファイル構成について書いていく。  
 
@@ -80,9 +80,6 @@ git clone git@github.com:inaba1203mpka/sal_server_test.git
         ├── urls.py
         └── views.py
 ```
-
-# MTVモデル
-
-ここでは公共施設利活用アプリの中の各ファイルについて、そのつながりを書いていく。
+「./sal_server/system」が公共施設利活用アプリの本体である。  
 
 # 参考ページ
