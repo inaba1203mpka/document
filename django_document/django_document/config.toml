@@ -1,9 +1,0 @@
-baseURL = "http://example.org/"
-languageCode = "ja"
-title = "Django Documents"
-
-theme = "hugo-tranquilpeak-theme"
-publicdir = "public"
-
-[Params]
-author = "Kouhei Inaba"
