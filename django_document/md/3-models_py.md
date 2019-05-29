@@ -11,7 +11,9 @@
 
 ## テーブル
 - User : ユーザーテーブル  
-  ユーザー用のテーブルである．
+  ユーザー用のテーブルである．  
+  UserManagerはユーザー周りの処理が書かれている．  
+  参考URL : [https://narito.ninja/blog/detail/38/](https://narito.ninja/blog/detail/38/)
 - Reservation : 予約テーブル  
   予約用のテーブルであり，予約情報入力で必要になるデータが集まったテーブルである．
 - Facility : 施設テーブル  
