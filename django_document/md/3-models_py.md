@@ -1,5 +1,6 @@
 # models.py
-ここではsystem/models.pyについて記述する．
+ここではsystem/models.pyについて記述する．  
+models.pyはdjangoのデータベースを管理するファイルである．
 
 ## ER図
 本システムのデータベースは下図のようになっている

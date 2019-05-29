@@ -1,6 +1,7 @@
 # setting.py
 
-ここではsal_server/setting.pyで変更を加えた部分について記述する．
+ここではsal_server/setting.pyで変更を加えた部分について記述する．  
+setting.pyはdjangoの設定を管理するファイルである．
 
 ## INSTALL_APPS
 ```
