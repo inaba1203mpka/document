@@ -30,9 +30,9 @@ mediaディレクトリはgitからクローンしたときには無いので注
 
 ## ログイン系
 ```
-AUTH_USER_MODEL = 'system_User'
-LOGIN_URL = 'system:login'
-LOGIN_REDIRECT_URL = 'system:top'
+AUTH_USER_MODEL = 'system_User'     # ユーザー認証するモデル
+LOGIN_URL = 'system:login'          # ログインページのurl
+LOGIN_REDIRECT_URL = 'system:top'   # ログイン後に飛ぶurl
 ```
 
 ## メール設定
