@@ -68,3 +68,8 @@ REST_FRAMEWORK = {
 }
 ```
 REST_Frameworkの設定をするところ．
+
+#  
+[前へ](../md/1-ファイル構成.md)
+[目次](../md/0-はじめに.md)
+[次へ](../md/3-models_py.md)

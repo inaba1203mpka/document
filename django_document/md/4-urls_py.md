@@ -21,3 +21,9 @@ urlpatterns = [
     path('random_string/', views.Random_string.as_view(),name='random_string'),
 ```
 random_stringはAPIViewを使っている．そのため，このURLはREST_Frameworkのページに移動する．
+
+
+#  
+[前へ](../md/3-models_py.md)
+[目次](../md/0-はじめに.md)
+[次へ](../md/5-views_py.md)
