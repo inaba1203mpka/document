@@ -15,7 +15,7 @@ urlpatterns = [
 公共施設利活用システムのurlを管理する．
 ```
     ...
-    # 普通の書式参考書等で学習
+    # 普通の書式．参考書等で学習
     ...
     # ランダム文字列受け取り
     path('random_string/', views.Random_string.as_view(),name='random_string'),
