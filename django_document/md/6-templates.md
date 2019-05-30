@@ -1,5 +1,5 @@
 # Templates
-ここではsystem_templatesについて説明する．  
+ここではsystem/templatesについて説明する．  
 templatesフォルダはviews.pyから送られてきたデータを表示する為のファイルが格納されているところである．  
 ## ファイル構成
 ```
